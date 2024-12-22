@@ -1,0 +1,18 @@
+So sánh Swing và AWT?
+
+Swing sử dụng JFrame, các thành phần nhẹ hơn và cần content-pane. AWT sử dụng Frame với các thành phần nặng hơn.
+Điểm khác biệt giữa JFrame và JPanel?
+
+JFrame là container cấp cao, chứa cửa sổ chính. JPanel là container phụ để tổ chức các thành phần bên trong.
+Sự khác biệt giữa các phương thức xử lý sự kiện trong Swing và JavaFX?
+
+Swing sử dụng ActionListener trong khi JavaFX sử dụng phương thức trực tiếp qua FXML hoặc Lambda.
+Khi nào sử dụng try-catch?
+
+Khi có khả năng lỗi xảy ra, như chia cho 0, hoặc khi xử lý file.
+Hai Media được coi là giống nhau khi nào?
+
+Khi chúng có cùng tiêu đề (title).
+Làm sao để thêm nút xóa hoặc cập nhật giao diện trong GUI?
+
+Thêm nút vào container (như JPanel) và gán ActionListener để xử lý sự kiện.
